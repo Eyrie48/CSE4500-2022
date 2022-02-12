@@ -50,12 +50,8 @@
                 <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                   <div class="flex-grow-1">
                     <h3 class="mb-0"><?php echo $education['school']; ?></h3>
-                    <div class="subheading mb-3"><?php echo $experience['degree']; ?></div>
+                    <div class="subheading mb-3"><?php echo $education['degree']; ?></div>
                     <p><?php echo $education['expected graduation']; ?></p>
-                  </div>
-                  
-                  <div class="flex-shrink-0">
-                    <span class="text-primary"><?php echo $education['period']; ?></span>
                   </div>
 
                 </div>
