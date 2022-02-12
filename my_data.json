@@ -1,9 +1,9 @@
 {
-    "first-name": "Firstname",
-    "last-name": "Lastname",
+    "first-name": "Edward",
+    "last-name": "Aleman",
     "address": "5500 University Pkwy, San Bernardino, CA 92407",
     "phone": "(123)456-7890",
-    "email": "name@mail.com",
+    "email": "edward_aleman@outlook.com",
     "introduction": "A introduction of youself ...",
     "experience":[
       {
@@ -18,5 +18,12 @@
         "period":"March 2018 - 2021",
         "description":"A description of your experience with this job."
       }
+    ],
+    "education": [
+        {
+            "school": "California State University, San Bernardino",
+            "degree": "BACHELLOR’S IN COMPUTER SCIENCE",
+            "expected graduation": "Sping 2022"
+        }
     ]
 }
