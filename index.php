@@ -49,8 +49,8 @@
               <?php foreach($json_data['education'] AS $education) { ?>
                 <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                   <div class="flex-grow-1">
-                    <h3 class="mb-0">School: <?php echo $education['school']; ?></h3>
-                    <div class="subheading mb-3">Degree<?php echo $education['degree']; ?></div>
+                    <h3 class="mb-0"><?php echo $education['school']; ?></h3>
+                    <div class="subheading mb-3"><?php echo $education['degree']; ?></div>
                     <p>Expected Graduation <?php echo $education['expected graduation']; ?></p>
                   </div>
 
