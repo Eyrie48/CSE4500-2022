@@ -1,3 +1,7 @@
+<?php
+    $json_file = file_get_contents('my_data.json');
+    $json_data = json_decode($json_file,true);
+?>
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
@@ -17,13 +21,19 @@
           <a class="nav-link" href="#about">About</a>
           <a class="nav-link" href="#education">Education</a>
           <a class="nav-link" href="#experience">Experience</a>
+          <a class="nav-link" href="#skills">Skills</a>
+          <a class="nav-link" href="#interest">Interest</a>
         </nav>
       </nav>
     </div>
+
     <div data-bs-offset="0" tabindex="0">
       <div id="about" class="content-item">
         <div class="vertical-center">
-          <h1>Edward Aleman</h1>
+          <h1>
+            <?php echo $json_data['first-name']; ?>
+            <span class="text-primary"><?php echo $json_data['last-name']; ?></span>
+          </h1>
           <div class="subheading">
             5500 University Pkwy, San Bernardino, CA 92407 · (123)456-7890
           </div>
@@ -40,7 +50,36 @@
       <hr>
       <div id="experience" class="content-item">
         <div class="vertical-center">
-          <h4>Experience</h4>
+          <h4>Experience
+              <?php foreach($json_data['experience'] AS $experience) { ?>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                  <div class="flex-grow-1">
+                    <h3 class="mb-0"><?php echo $experience['title']; ?></h3>
+                    <div class="subheading mb-3"><?php echo $experience['employer']; ?></div>
+                    <p><?php echo $experience['description']; ?></p>
+                  </div>
+                  
+                  <div class="flex-shrink-0">
+                    <span class="text-primary"><?php echo $experience['period']; ?></span>
+                  </div>
+
+                </div>
+              <?php  } ?>
+          </h4>
+          <p>...</p>
+        </div>
+      </div>
+      <hr>
+      <div id="skills" class="content-item">
+        <div class="vertical-center">
+          <h4>Skills</h4>
+          <p>...</p>
+        </div>
+      </div>
+      <hr>
+      <div id="interest" class="content-item">
+        <div class="vertical-center">
+          <h4>Interest</h4>
           <p>...</p>
         </div>
       </div>
