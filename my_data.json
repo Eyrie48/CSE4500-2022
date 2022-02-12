@@ -4,19 +4,19 @@
     "address": "5500 University Pkwy, San Bernardino, CA 92407",
     "phone": "(123)456-7890",
     "email": "edward_aleman@outlook.com",
-    "introduction": "A introduction of youself ...",
+    "introduction": "I'm currently pursuing a Bachelor's in Computer science and I'm currently working on a social media application.",
     "experience":[
       {
-        "title":"WEB DEVELOPER",
+        "title":"INSTRUCTIONAL STUDENT ASSISTANT (ISA)",
         "employer":"CSUSB",
-        "period":"March 2018 - Present",
-        "description":"A description of your experience with this job."
+        "period":"August 2021 - Present",
+        "description":"Encourage student interaction and understanding through specific learning strategies and study skills."
       },
       {
-        "title":"APPLICATION DEVELOPER",
+        "title":"University Learning Assistant",
         "employer":"CSUSB",
-        "period":"March 2018 - 2021",
-        "description":"A description of your experience with this job."
+        "period":"February 2021 - July 2021",
+        "description": "Collaborating with the professor to find potentially troublesome topics and how to deal with them. Supporting students through tutor sessions for the more challenging topics. "
       }
     ],
     "education": [

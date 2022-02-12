@@ -37,9 +37,9 @@
           <div class="subheading">
             5500 University Pkwy, San Bernardino, CA 92407 · (123)456-7890
           </div>
-          <h2>
+          <div class="subheading">
             <?php echo $json_data['email']; ?>
-          </h2>
+          </div>
           <p>
             <?php echo $json_data['introduction']; ?>
           </p>
