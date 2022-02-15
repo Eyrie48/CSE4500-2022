@@ -4,6 +4,8 @@
     "address": "5500 University Pkwy, San Bernardino, CA 92407",
     "phone": "(123)456-7890",
     "email": "edward_aleman@outlook.com",
+    "github": "https://github.com/Eyrie48/CSE4500-2022",
+    "interest": "I find interest in software development, web development and machine learning. Other interest involve playing videogames where sparked my interest for programming and computers. I also enjoy spending time outside. ",
     "introduction": "I'm currently pursuing a Bachelor's in Computer science and I'm currently working on a social media application.",
     "experience":[
       {
@@ -20,10 +22,17 @@
       }
     ],
     "education": [
-        {
-            "school": "California State University, San Bernardino",
-            "degree": "BACHELLOR’S IN COMPUTER SCIENCE",
-            "expected graduation": "Spring 2022"
-        }
+      {
+        "school": "California State University, San Bernardino",
+        "degree": "BACHELLOR’S IN COMPUTER SCIENCE",
+        "expected graduation": "Spring 2022"
+      }
+    ],
+    "skills": [
+      {
+        "languages": "C++, SQL, Python, Java",
+        "description": "I can read, write and speak Spanish fluently. Ability to multitask."
+      }
     ]
+    
 }

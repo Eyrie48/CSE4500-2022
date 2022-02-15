@@ -40,6 +40,9 @@
           <div class="subheading">
             <?php echo $json_data['email']; ?>
           </div>
+          <div class="subheading">
+            <?php echo $json_data['github']; ?>
+          </div>
           <p>
             <?php echo $json_data['introduction']; ?>
           </p>
@@ -88,14 +91,24 @@
       <hr>
       <div id="skills" class="content-item">
         <div class="vertical-center">
-          <h4>Skills</h4>
-          <p>...</p>
+          <h4>Skills
+            <?php foreach($json_data['skills'] AS $skills) { ?>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                  <div class="flex-grow-1">
+                    <div class="subheading mb-3"><?php echo $skills['languages']; ?></div>
+                    <p><?php echo $skills['description']; ?></p>
+                  </div>
+                </div>
+              <?php  } ?>
+          </h4>
         </div>
       </div>
       <hr>
       <div id="interest" class="content-item">
         <div class="vertical-center">
-          <h4>Interest</h4>
+          <h4>Interest
+          <?php echo $json_data['interest']; ?>
+          </h4>
           <p>...</p>
         </div>
       </div>
