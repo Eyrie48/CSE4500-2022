@@ -106,10 +106,10 @@
       <hr>
       <div id="interest" class="content-item">
         <div class="vertical-center">
-          <h4>Interest
-          <?php echo $json_data['interest']; ?>
-          </h4>
-          <p>...</p>
+          <h4>Interest</h4>
+          <p>
+            <?php echo $json_data['interest']; ?>
+          </p>
         </div>
       </div>
       <hr>
