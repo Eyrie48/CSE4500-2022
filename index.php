@@ -2,7 +2,6 @@
     //https://cse4500-2022.herokuapp.com/
     $json_file = file_get_contents('my_data.json');
     $json_data = json_decode($json_file,true);
-    
 ?>
 
 <!DOCTYPE html>
@@ -51,6 +50,7 @@
         </div>
       </div>
       <hr>
+
       <div id="education" class="content-item">
         <div class="vertical-center">
           <h4>Education
@@ -69,6 +69,7 @@
         </div>
       </div>
       <hr>
+
       <div id="experience" class="content-item">
         <div class="vertical-center">
           <h4>Experience
@@ -83,7 +84,6 @@
                   <div class="flex-shrink-0">
                     <span class="text-primary"><?php echo $experience['period']; ?></span>
                   </div>
-
                 </div>
               <?php  } ?>
           </h4>
@@ -91,6 +91,7 @@
         </div>
       </div>
       <hr>
+
       <div id="skills" class="content-item">
         <div class="vertical-center">
           <h4>Skills
@@ -106,6 +107,7 @@
         </div>
       </div>
       <hr>
+
       <div id="interest" class="content-item">
         <div class="vertical-center">
           <h4>Interest</h4>
